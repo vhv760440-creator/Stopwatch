@@ -1,14 +1,34 @@
-<!-- كود ساعة إيقاف بسيط -->
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Stopwatch</title>
-</head>
-<body>
-    <button onclick="startStop()">ابدأ/أوقف</button>
-    <div id="display">00:00:00</div>
-    <script>
-        // هنا كود جافاسكريبت لتشغيل وإيقاف الساعة
-    </script>
-</body>
-</html>
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.aab
+*.apk
+output-metadata.json
+
+# IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof

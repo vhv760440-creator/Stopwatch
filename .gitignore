@@ -1,0 +1,14 @@
+<!-- كود ساعة إيقاف بسيط -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stopwatch</title>
+</head>
+<body>
+    <button onclick="startStop()">ابدأ/أوقف</button>
+    <div id="display">00:00:00</div>
+    <script>
+        // هنا كود جافاسكريبت لتشغيل وإيقاف الساعة
+    </script>
+</body>
+</html>
